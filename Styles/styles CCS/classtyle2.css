@@ -1,0 +1,98 @@
+body {
+    --bg-main-color:#441e13;
+    --bg-nav-color:#39180f;
+    --bg-headpan-color:#87a984;
+    --bg-aside-color:#96afac;
+    --bg-content-color:#dbd8c5;
+    --text-color:#576f78;
+
+    background-color: var(--bg-main-color);
+}
+
+header.stheader nav {
+     background-color:var(--bg-nav-color) ;
+     margin: 0 10%;
+     color: white;
+}
+
+
+.navigacia {
+    display: inline-flex;
+    margin: 40px 10%;
+}
+
+.navigacia li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.navigacia li + li {
+    border-left: 1px solid;
+}
+
+#logo {
+    color:white;
+    font-size: 2em;
+    margin: 40px 10%;
+}
+
+.podpis {
+    font-size: 12px;
+}
+
+#About {
+    padding: 10px;
+    background-color: var(--bg-headpan-color);
+    font-size: 3em;
+    color: white;
+    margin: 0 10%;
+    padding: 0.5em 4em;
+}
+
+.podabout {
+    font-size: 1em;
+}
+
+section#main{
+    background-color: var(--bg-content-color);
+    box-sizing: border-box;
+    width: 65%;
+    float: right;
+    margin-right: 10%;
+    height: 27em;
+}
+
+section h3 {
+    background-color:var(--bg-content-color);
+}
+
+section#main h3 {
+    padding: 1em 1em;
+    color: var(--text-color);
+    font-size: 2em;
+}
+
+.content {
+    padding: 0em 2em;
+    margin: 0;
+  
+}
+
+aside {
+    background-color: var(--bg-aside-color);
+    box-sizing: border-box;
+    float: left;
+    width: 15%;
+    height: 27em;
+    margin-left: 10%;
+
+}
+
+aside section ul {
+    list-style: none;
+}
+
+aside section ul li {
+    line-height: 2em;
+    color: white;
+}
