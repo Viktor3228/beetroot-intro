@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 nav {
     display: block;
     background-color:white;
