@@ -1,0 +1,105 @@
+nav {
+    display: block;
+    background-color:white;
+    background-image: url(4.png);
+    background-size: cover;
+    width: 800px;
+    height: 180px;
+    margin: auto;
+    margin-top: 15%;
+    background-repeat: no-repeat;
+}
+
+.st {
+    display: inline-block;
+    background-size: 16px;
+    background-image: url(responsive\ design\ in.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 1px solid #0076bd;
+    border-radius: 100%;
+    margin: 15px 60px 6px 139px;
+    padding: 25px 26px 25px 25px;   
+}
+
+.st:hover {
+    background-image: url(1.2.png);
+    border: 1px solid #2a69a6;
+    background-color: white;
+}
+
+.nd {
+    display: inline-block;
+    background-size: 16px;
+    background-color:rgba(0, 118, 189, 0.9);
+    background-image: url(easy\ customise\ in.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 1px solid #0076bd;
+    border-radius: 100%;
+    margin: 6px 117px;
+    padding: 25px 25px 25px 25px;   
+}
+
+.nd:hover {
+    background-image: url(2.2.png);
+    border: 1px solid #2a69a6;
+    background-color: white;
+}
+
+.rd {
+    display: inline-block;
+    background-size: 16px;
+    background-color:rgba(0, 118, 189, 0.9);    
+    background-image: url(fast\ and\ reliable\ in.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 1px solid #0076bd;
+    border-radius: 100%;
+    margin:6px 60px;
+    padding: 25px;  
+}
+
+.rd:hover {
+    background-image: url(3.2.png);
+    border: 1px solid #2a69a6;
+    background-color: white;
+}
+
+.stt {
+margin-left: 107px;
+font-size: 10px;
+font-weight: bold;
+box-sizing: content-box;
+display: inline-block;
+width: 120px;
+text-align: center;
+}
+
+.ndt {
+    margin-left: 107px;
+font-size: 10px;
+font-weight: bold;
+box-sizing: content-box;
+display: inline-block;
+width: 120px;
+text-align: center;
+}
+
+.rdt {
+margin-left: 110px;
+font-size: 10px;
+font-weight: bold;
+box-sizing: content-box;
+display: inline-block;
+width: 120px;
+text-align: center;
+}
+
+div span {
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace
+}
