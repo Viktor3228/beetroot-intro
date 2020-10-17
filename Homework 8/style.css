@@ -4,6 +4,12 @@ body {
     padding: 0% 8% ;
 }
 
+.body {
+    box-shadow: 2px 2px 5px black;
+    display: block;
+    padding: 20px;
+}
+
 header {
     font-size: 30px;
     font-weight: lighter;
