@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: black;
+}
+
+main {
+    box-sizing: border-box;
+    height: 95vh;
+    background-color: lightgray;
+    padding: 40px 80px 80px 80px;
+}
+
+article {
+    height: 600px;
+    width: 630px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+section {   
+    flex-basis: calc((100% / 3) - 15px);
+    height: calc(50% - 15px);
+}
+
+article section:first-child {
+    flex-basis: calc(100% - (100% / 3) - 15px);
+    background-image: url(1.png);
+    background-size: cover;
+}
+
+article section + section {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    height: 45%;
+}
+
+.bot {
+    height: 55%;
+    background-color: white;
+}
+
+article section:nth-child(2) .top {
+    background-image: url(2.png);
+    background-size: cover;
+}
+
+article section:nth-child(3) .top {
+    background-image: url(3.png);
+    background-size: cover;
+}
+
+article section:nth-child(4) .top {
+    background-image: url(4.png);
+    background-size: cover;
+}
+
+article section:nth-child(5) .top {
+    background-image: url(5.png);
+    background-size: cover;
+}
+
+article section + section .bot {
+    background-image: url(face.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-x: 10px;
+    background-position-y: 120px;
+}
+
+article section:nth-child(1)  {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+
+}
+
+.big {
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+article section:nth-child(1) .big {
+    color: white;
+    margin: 10px;
+    padding-right: 20%;
+    font-weight: 600;
+}
+
+article section:nth-child(4) .big {
+    margin-top: 30px;
+}
+
+article section:nth-child(1) .small {
+    margin: 0 10px;
+}
+
+.small  {
+    color: gray;
+    font-size: 8px;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+
+
+
+
