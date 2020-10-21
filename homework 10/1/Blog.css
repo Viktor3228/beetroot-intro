@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: blueviolet;
+    color: white;
+}
+
+main {
+    border: 1px solid;
+    
+}
+
+.blog {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.under {
+    text-align: center;
+    padding: 2em 30%;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.content {
+    margin: 1em;
+    height: 300px;
+    position: relative;
+    flex-basis: 300px;
+    box-shadow: 2px 2px 5px black;
+
+    transition: transform 0.2s linear;
+}
+
+}
+.ribbon1:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 53px solid transparent;
+  border-right: 53px solid transparent;
+  border-top: 10px solid #F8463F;
+}
+
+
+.content:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+section .content:first-child {
+    background-image: url(1.png);
+    background-size: cover;
+}
+
+section .content:nth-child(2) {
+    background-image: url(2.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: -85px;
+    background-position-x: -5px ;
+}
+
+section .content:nth-child(3) {
+    background-image: url(3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 10%);
+}
+
+.big {
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.small  {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    opacity: 70%;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: red;
+    margin: 20px 45%;
+    padding: 1em;
+    display: block;
+    box-shadow: 2px 2px 5px black;
+    font-weight: 300;
+}
