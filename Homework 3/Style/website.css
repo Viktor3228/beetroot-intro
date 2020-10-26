@@ -1,0 +1,71 @@
+.right {
+    float: right;
+    width: 15%;
+    background:#E3DDDD;
+}
+
+.title {
+    background: #BDBDBD;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 14em;
+    height: 21em;
+    background: #7D0909;
+    color: #DC5211;
+    margin-left: 1em;
+}
+
+.main-article {
+    color: white;
+    padding-left: 15.5em;
+}
+
+
+.test2 {
+        display: inline-block; 
+        padding-left: 2.4em;
+}
+
+#kartinki {
+    background-color: black;
+    margin-left: 1em;
+}
+
+#kartinki figcaption {
+    color: white;
+    text-align: center;
+}
+
+
+.foot {
+    text-align: center;
+    background-color: #E95B11;
+    color: white;
+    margin-left: 1em;
+    font-size: 20px;
+}
+
+.container {
+    background-color: #990909;
+    margin: 4% 12%;
+    font-size: 18px;
+}
+
+.golova {
+    text-align: center;
+}
+
+#levo li {
+    list-style: none;
+    color: #DC5211;
+    text-decoration: underline;
+    line-height: 2.5em;
+}
+
+.vse {
+    background-color: black;
+    
+}

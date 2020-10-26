@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+}
+
+.body{
+    background-color: white;
+    display: block;
+    margin: 5%;
+    padding-top: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    font-size: 8px;
+    letter-spacing: 3px;
+}
+
+.namaste {
+    font-size: 24px;
+    padding: 12px 0;
+    letter-spacing: 3px;
+    color: #00B5B8;
+}
+
+.namas {
+    font-size: 10px;
+    box-sizing: border-box;
+    font-weight: lighter;
+    display: inline-block;
+    width: 40%;
+    margin: 30px 0 50px;
+    line-height: 20px;
+}
+
+
+.sekcia {
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: 50% 8%;
+    box-sizing: content-box;
+    display: inline-block;
+    width: calc((100% - 20px) / 4);
+    text-align: center;
+    border: 1px solid #FFE6E6;
+    padding-top: 70px;
+    
+}
+
+.sekcia:hover {
+    background-image: url(1.2.png);
+    background-color:rgba(0, 181, 184, 0.5);
+    color: white;
+    
+}
+
+.sekcia2 {
+    background-image: url(2.1.png);
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: top;
+    box-sizing: content-box;
+    display: inline-block;
+    width: calc((100% - 20px) / 4);
+    text-align: center;
+    border: 1px solid #FFE6E6;
+    background-position: 50% 8%;
+    padding-top: 51.8px;
+}
+
+.sekcia2:hover {
+    background-image: url(2.png);
+    background-color:rgba(0, 181, 184, 0.5);
+    color: white;
+}
+
+.sekcia3 {
+    background-image: url(3.png);
+    background-repeat: no-repeat;
+    background-size: 35px 30px;
+    background-position: top;
+    box-sizing: content-box;
+    display: inline-block;
+    width: calc((100% - 20px) / 4);
+    text-align: center;
+    border: 1px solid #FFE6E6;
+    padding-top: 70px;
+    background-position: 50% 8%;
+}
+
+.sekcia3:hover {
+    background-image: url(3.1.png);
+    background-color:rgba(0, 181, 184, 0.5);
+    color: white;
+}
+
+.sekcia4 {
+    background-image: url(4.png);
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: top;
+    box-sizing: content-box;
+    display: inline-block;
+    width: calc((100% - 20px) / 4);
+    text-align: center;
+    border: 1px solid #FFE6E6;
+    padding-top: 70px;
+    background-position: 50% 8%;
+}
+
+.sekcia4:hover {
+    background-image: url(4.1.png);
+    background-color:rgba(0, 181, 184, 0.5);
+    color: white;
+}
+
+.text {
+    margin: 24px;
+    font-weight: bold;
+}
+
+.tex {
+    font-size: 8px;
+    padding: 0em 30px;
+    margin: 0 0 60px;
+}
+
+nav {
+    margin: 50px 100px ;
+    display: inline-block;
+    box-sizing: border-box;
+}

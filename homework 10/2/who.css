@@ -1,0 +1,80 @@
+
+
+main {
+    box-sizing: border-box;
+}
+
+.big {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+hr {
+    width: 3%;
+    height: 2px;
+    background-color: black;
+    opacity: 10%;
+}
+
+.small {
+    margin:50px 30%;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+}
+
+section > div {
+    margin: 10px;   
+    height: 200px;
+    flex-basis: 200px;
+    position: relative;
+}
+
+
+section > div:nth-child(1) {
+    background-image: url(1.png);
+    background-size: cover;
+}
+
+section > div:nth-child(2) {
+    background-image: url(2.png);
+    background-size: cover;
+}
+
+section > div:nth-child(3) {
+    background-image: url(3.png);
+    background-size: cover;
+}
+
+section > div:nth-child(4) {
+    background-image: url(4.png);
+    background-size: cover;
+}
+
+section > div:hover {
+    background-image: url(Hover.png);
+    transform: matrix(1.1,0,0,1.1,1,-50);
+    transition-duration: 0.5s;
+}
+
+
+
+.name {
+    position: absolute;
+    bottom: -30px;
+    font-weight: bold;
+}
+
+.position {
+    position: absolute;
+    bottom: -45px;
+    font-size: 0.9em;
+    opacity: 60%;
+}
